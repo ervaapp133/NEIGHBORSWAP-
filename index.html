@@ -7,19 +7,58 @@
 </head>
 <body>
 
+<!-- NAVBAR -->
 <header class="navbar">
-  <h1>🌱 NEIGHBORSWAP</h1>
-  <a href="add.html" class="btn">+ Tambah Barang</a>
+  <div class="logo">🌱 NEIGHBORSWAP</div>
+  <nav>
+    <a href="#">Home</a>
+    <a href="#">Komunitas</a>
+    <a href="add.html" class="btn-nav">Tambah Barang</a>
+  </nav>
 </header>
 
-<section class="banner">
-  <h2>Tukar Barang, Bangun Kepedulian</h2>
-  <p>Berbagi & menukar barang dengan tetangga sekitar</p>
+<!-- HERO / BANNER -->
+<section class="hero">
+  <div class="hero-text">
+    <h1>Tukar Barang, Bangun Kepedulian</h1>
+    <p>Aplikasi berbasis komunitas untuk menukar & menyumbangkan barang layak pakai.</p>
+    <a href="#barang" class="btn-hero">Mulai Menukar</a>
+  </div>
+
+  <div class="hero-shape"></div>
 </section>
 
-<section class="grid" id="barangList">
-  <!-- Card Barang -->
+<!-- FITUR -->
+<section class="features">
+  <div class="feature-card">
+    🔄
+    <h3>Swap Barang</h3>
+    <p>Tukar barang dengan tetangga sekitar secara mudah.</p>
+  </div>
+  <div class="feature-card">
+    🎁
+    <h3>Donasi</h3>
+    <p>Sumbangkan barang yang masih layak pakai.</p>
+  </div>
+  <div class="feature-card">
+    📍
+    <h3>Komunitas Lokal</h3>
+    <p>Fokus pada lingkungan sekitar Anda.</p>
+  </div>
 </section>
+
+<!-- DAFTAR BARANG -->
+<section class="grid-section" id="barang">
+  <h2>Barang Terbaru</h2>
+  <div class="grid" id="barangList">
+    <!-- Card dari JS -->
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <p>© 2025 NEIGHBORSWAP | Project Mahasiswa</p>
+</footer>
 
 <script src="js/app.js"></script>
 </body>
