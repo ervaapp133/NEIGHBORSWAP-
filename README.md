@@ -30,4 +30,20 @@ Aplikasi ini dikembangkan sebagai **project mahasiswa** dengan fokus pada keberl
 
 ---
 
-## 🧱 Struktur Folder
+## ⚙️ Teknologi yang Digunakan
+**Frontend**
+- HTML5  
+- CSS3  
+- JavaScript (Vanilla)
+
+**Tools Pendukung**
+- Visual Studio Code  
+- Git & GitHub  
+
+---
+
+## 🚀 Cara Menjalankan Project
+1. Clone repository:
+   ```bash
+   git clone https://github.com/username/NEIGHBORSWAP.git
+
